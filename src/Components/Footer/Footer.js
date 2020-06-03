@@ -4,7 +4,7 @@ class Footer extends Component {
     render(){
         return(
             <header>
-                <p>copyright © React Actors</p>
+                <p id="test">© React Actors</p>
             </header>
         )
     }

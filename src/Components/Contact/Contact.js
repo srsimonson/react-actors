@@ -5,8 +5,8 @@ class Contact extends Component {
         return(
             <header>
                 <h2>Contact</h2>
-                    <p>555-5555</p>
-                    <p>fake@email.com</p>
+                    <p>Phone: 555-5555</p>
+                    <p>Emnail: fake@email.com</p>
             </header>
         )
     }
