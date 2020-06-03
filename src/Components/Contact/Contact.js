@@ -1,6 +1,16 @@
 import React, { Component } from 'react';
 
 class Contact extends Component {
+    state = {
+        firstName: 1,
+        lastName: 2,
+        bestImpression: 3
+    }
+
+    appendToDom = () => {
+        
+    }
+
     render(){
         return(
             <header>
@@ -9,8 +19,9 @@ class Contact extends Component {
                 <input type="text" placeholder="Last Name"></input>
                 <input type="text" placeholder="Best Ipmression"></input>
                 <button>Join Us!</button>
-                    <p>Phone: 555-5555</p>
-                    <p>Emnail: fake@email.com</p>
+                <p>{this.state.firstName} {this.state.lastName} {this.state.bestImpression}</p>
+                <p>Phone: 555-5555</p>
+                <p>Emnail: fake@email.com</p>
             </header>
         )
     }
